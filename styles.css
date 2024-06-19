@@ -1,0 +1,64 @@
+body {
+    background: url("https://raw.githubusercontent.com/miya-43/Pictures/main/wallhaven-p9z9qm_1920x1080.png");
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.yes-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.yes-button:hover {
+    background-color: #218838;
+}
+
+.no-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.no-button:hover {
+    background-color: #c82333;
+}
